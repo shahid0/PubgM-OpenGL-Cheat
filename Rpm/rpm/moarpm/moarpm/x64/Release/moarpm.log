@@ -1,0 +1,17 @@
+﻿  kRpm.cpp
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.h(50): warning C4091: 'static ': ignored on left of 'MoaRpm::MOA_MODE' when no variable is declared
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(8,39): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(123,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(161,71): warning C4244: 'argument': conversion from 'SIZE_T' to 'ULONG', possible loss of data
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(183,84): warning C4244: 'argument': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(194,72): warning C4244: 'argument': conversion from 'SIZE_T' to 'ULONG', possible loss of data
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(216,85): warning C4244: 'argument': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(463,18): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(469,40): warning C4312: 'type cast': conversion from 'DWORD' to 'LPCVOID' of greater size
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(483,38): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(483,38): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(483,38): warning C4244: '=': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(491,22): warning C4244: 'initializing': conversion from 'SIZE_T' to 'long', possible loss of data
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(492,19): warning C4244: 'initializing': conversion from 'SIZE_T' to 'long', possible loss of data
+C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\moarpm\kRpm.cpp(503,70): warning C4244: 'argument': conversion from 'DWORD_PTR' to 'int', possible loss of data
+  moarpm.vcxproj -> C:\Users\3xx\Desktop\Private\new_rpm_21\rpm\moarpm\x64\Release\moarpm.lib
