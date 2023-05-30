@@ -1,0 +1,42 @@
+﻿  intel_driver.cpp
+  kdmapper.cpp
+  service.cpp
+intel_driver.cpp(157): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+intel_driver.cpp(172): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+intel_driver.cpp(223): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): error C2664: 'void *memcpy(void *,const void *,std::size_t)': cannot convert argument 2 from 'NTSTATUS' to 'const void *' (compiling source file kdmapper.cpp)
+  c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast (compiling source file kdmapper.cpp)
+  kdmapper.cpp(148): note: see reference to function template instantiation 'bool intel_driver::CallKernelFunction<NTSTATUS,uint64_t,ULONG64>(HANDLE,T *,uint64_t,const uint64_t,const ULONG64)' being compiled
+          with
+          [
+              T=NTSTATUS
+          ]
+c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): error C2664: 'void *memcpy(void *,const void *,std::size_t)': cannot convert argument 2 from 'uint64_t' to 'const void *' (compiling source file intel_driver.cpp)
+  c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast (compiling source file intel_driver.cpp)
+  intel_driver.cpp(278): note: see reference to function template instantiation 'bool intel_driver::CallKernelFunction<uint64_t,LARGE_INTEGER,LARGE_INTEGER,LARGE_INTEGER,SIZE_T>(HANDLE,T *,uint64_t,const LARGE_INTEGER,const LARGE_INTEGER,const LARGE_INTEGER,const SIZE_T)' being compiled
+          with
+          [
+              T=uint64_t
+          ]
+c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): error C2664: 'void *memcpy(void *,const void *,std::size_t)': cannot convert argument 2 from 'NTSTATUS' to 'const void *' (compiling source file intel_driver.cpp)
+  c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast (compiling source file intel_driver.cpp)
+  intel_driver.cpp(314): note: see reference to function template instantiation 'bool intel_driver::CallKernelFunction<NTSTATUS,uint64_t,ULONG>(HANDLE,T *,uint64_t,const uint64_t,const ULONG)' being compiled
+          with
+          [
+              T=NTSTATUS
+          ]
+c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): error C2070: 'void': illegal sizeof operand (compiling source file intel_driver.cpp)
+  intel_driver.cpp(380): note: see reference to function template instantiation 'bool intel_driver::CallKernelFunction<void,uint64_t>(HANDLE,T *,uint64_t,const uint64_t)' being compiled
+          with
+          [
+              T=void
+          ]
+c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): error C2664: 'void *memcpy(void *,const void *,std::size_t)': cannot convert argument 2 from 'void' to 'const void *' (compiling source file intel_driver.cpp)
+  c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): note: Expressions of type void cannot be converted to other types (compiling source file intel_driver.cpp)
+c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): error C2664: 'void *memcpy(void *,const void *,std::size_t)': cannot convert argument 2 from 'BOOLEAN' to 'const void *' (compiling source file intel_driver.cpp)
+  c:\users\3xx\desktop\kdmapper-master\kdmapper\intel_driver.hpp(206): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast (compiling source file intel_driver.cpp)
+  intel_driver.cpp(556): note: see reference to function template instantiation 'bool intel_driver::CallKernelFunction<BOOLEAN,PVOID,BOOLEAN>(HANDLE,T *,uint64_t,const PVOID,const BOOLEAN)' being compiled
+          with
+          [
+              T=BOOLEAN
+          ]
